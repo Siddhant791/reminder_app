@@ -1,1 +1,1 @@
-This is backend of reminder app
+This is backend of reminder app with different microservices

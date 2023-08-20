@@ -10,7 +10,6 @@ export const ListOfReminders = () => {
         <>
         <ScrollView>
             {reminderList.map((reminder) => {
-                console.log(reminder.month);
                 return(
                 <React.Fragment key={reminder.id}>
                     <Reminder title={reminder.message} />

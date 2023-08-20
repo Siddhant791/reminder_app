@@ -20,7 +20,7 @@ export default function AppContainer() {
       "minute": "45",
       "hour": "22",
       "day": "16",
-      "month": "8",
+      "month": "9",
       "message":"Good morning Siddhant"+generateUUID().toString()
   }
     dispatch(addReminder(payload))
